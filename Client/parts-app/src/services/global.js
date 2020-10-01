@@ -12,7 +12,7 @@ const GLOBAL = {
   successIcon: "☑",
   warningIcon: "⚠",
   errorIcon: "x",
-  interval: 1000000
+  interval: 10000
 };
 
 export default GLOBAL;
