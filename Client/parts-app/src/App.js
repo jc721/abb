@@ -35,7 +35,28 @@ const App = () => {
     [data, isMounted]
   );
 
-  return <div className="App" />;
+  const renderListOfParts =
+    data.parts?.length > 0 ? (
+      data.parts.map(part => {
+        return (
+          <>
+            <h2 className="alignLeft">{part.name}</h2>
+            <div className="part" />
+          </>
+        );
+      })
+    ) : (
+      <h2 data-testid="noPartsFound">No Parts Found</h2>
+    );
+
+  const content = data.isFetching ? <h1>Loading...</h1> : <>{renderListOfParts}</>;
+
+  return (
+    <>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
+      <div className="App">{content}</div>
+    </>
+  );
 };
 
 export default App;
