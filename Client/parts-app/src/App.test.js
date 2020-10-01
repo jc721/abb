@@ -1,9 +1,9 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import App from "./App";
+import React from 'react';
+import { render } from '@testing-library/react';
+import App from './App';
 
-test("renders the loading text when no data is got from the rest call", () => {
+test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const loadingText = getByText("Loading...");
-  expect(loadingText).toBeInTheDocument();
+  const linkElement = getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
 });
