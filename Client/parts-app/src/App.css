@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.part {
+  border: 1px solid #000000;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  height: fit-content;
+}
+
+.feature {
+  background-color: #d6d8d8;
+  min-height: 100px;
+}
+
+.paddingContent {
+  padding: 10px;
+}
+
+.controlListContent {
+  width: 94%;
+  padding: 10px;
+  position: relative;
+  display: block;
+  float: left;
+  min-height: 195px;
+  font-size: 9pt;
+}
+
+.twoColumns {
+  width: 45%;
+  margin-right: 2px;
+}
+
+.big {
+  height: 200px;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.warning {
+  background-color: #ebce01;
+  color: white;
+}
+.error {
+  background-color: #f0374a;
+  color: white;
+}
+.success {
+  background-color: #38a468;
+  color: white;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon.warningIcon {
+  color: #ebce01;
+}
+.icon.errorIcon {
+  color: #f0374a;
+}
+.icon.successIcon {
+  color: #38a468;
+}
+
+.control {
+  white-space: nowrap;
+  columns: 4;
+  padding: 5px;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}
