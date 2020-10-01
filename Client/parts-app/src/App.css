@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.part {
+  border: 1px solid #000000;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  height: fit-content;
+}
