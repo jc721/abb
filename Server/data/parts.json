@@ -1,0 +1,224 @@
+{
+	"parts": [
+		{
+			"name": "Part_A",
+			"features": [
+				{
+					"name": "Feature_1",
+					"status": "success",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"length": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"x0": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"y0": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"z0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"diameter0": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"length0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"x1": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y1": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z1": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter1": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"length1": { "dev": 0, "devOutTotal": 0, "status": "warning" }
+					}
+				},
+				{
+					"name": "Feature_2",
+					"status": "warning",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"length": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"x0": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"y0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z0": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"diameter0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"length0": { "dev": 0, "devOutTotal": 0, "status": "errorg" }
+					}
+				},
+				{
+					"name": "Feature_3",
+					"status": "error",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"length": { "dev": 0, "devOutTotal": 0, "status": "error" }
+					}
+				},
+				{
+					"name": "Feature_4",
+					"status": "success",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "warning" }
+					}
+				},
+				{
+					"name": "Feature_5",
+					"status": "success",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "warning" }
+					}
+				}
+			]
+		},
+		{
+			"name": "Part_B",
+			"features": [
+				{
+					"name": "Feature_2",
+					"status": "warning",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"length": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"x0": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"y0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z0": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"diameter0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"length0": { "dev": 0, "devOutTotal": 0, "status": "errorg" }
+					}
+				},
+				{
+					"name": "Feature_3",
+					"status": "error",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"length": { "dev": 0, "devOutTotal": 0, "status": "error" }
+					}
+				},
+				{
+					"name": "Feature_4",
+					"status": "success",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "warning" }
+					}
+				}
+			]
+		},
+		{
+			"name": "Part_C",
+			"features": [
+				{
+					"name": "Feature_1",
+					"status": "success",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"length": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"x0": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"y0": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"z0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"diameter0": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"length0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"x1": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y1": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z1": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter1": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"length1": { "dev": 0, "devOutTotal": 0, "status": "warning" }
+					}
+				},
+				{
+					"name": "Feature_2",
+					"status": "warning",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"length": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"x0": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"y0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z0": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"diameter0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"length0": { "dev": 0, "devOutTotal": 0, "status": "errorg" }
+					}
+				},
+				{
+					"name": "Feature_4",
+					"status": "success",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "warning" }
+					}
+				}
+			]
+		},
+		{
+			"name": "Part_D",
+			"features": [
+				{
+					"name": "Feature_1",
+					"status": "success",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"length": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"x0": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"y0": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"z0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"diameter0": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"length0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"x1": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y1": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z1": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter1": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"length1": { "dev": 0, "devOutTotal": 0, "status": "warning" }
+					}
+				},
+				{
+					"name": "Feature_2",
+					"status": "warning",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"length": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"x0": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"y0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z0": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"diameter0": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"length0": { "dev": 0, "devOutTotal": 0, "status": "errorg" }
+					}
+				},
+				{
+					"name": "Feature_3",
+					"status": "error",
+					"controls": {
+						"x": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"y": { "dev": 0, "devOutTotal": 0, "status": "warning" },
+						"z": { "dev": 0, "devOutTotal": 0, "status": "error" },
+						"diameter": { "dev": 0, "devOutTotal": 0, "status": "success" },
+						"length": { "dev": 0, "devOutTotal": 0, "status": "error" }
+					}
+				}
+			]
+		}
+	]
+}
