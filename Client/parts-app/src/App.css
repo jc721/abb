@@ -1,38 +1,88 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.part {
+  border: 1px solid #000000;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  height: fit-content;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.feature {
+  background-color: #d6d8d8;
+  min-height: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.paddingContent {
+  padding: 10px;
+}
+
+.controlListContent {
+  width: 94%;
+  padding: 10px;
+  position: relative;
+  display: block;
+  float: left;
+  min-height: 195px;
+  font-size: 9pt;
+}
+
+.twoColumns {
+  width: 45%;
+  margin-right: 2px;
+}
+
+.big {
+  height: 200px;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.warning {
+  background-color: #ebce01;
+  color: white;
+}
+.error {
+  background-color: #f0374a;
+  color: white;
+}
+.success {
+  background-color: #38a468;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon.warningIcon {
+  color: #ebce01;
+}
+.icon.errorIcon {
+  color: #f0374a;
+}
+.icon.successIcon {
+  color: #38a468;
+}
+
+.control {
+  white-space: nowrap;
+  columns: 4;
+  padding: 5px;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
 }
