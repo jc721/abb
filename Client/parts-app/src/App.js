@@ -1,5 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
+import partsService from "./services/parts";
+import Part from "./components/Part";
+import GLOBAL from "./services/global";
+
+const { getParts } = partsService;
 
 const App = () => {
   const [data, setData] = useState({ parts: [], isFetching: false });
@@ -41,7 +46,9 @@ const App = () => {
         return (
           <>
             <h2 className="alignLeft">{part.name}</h2>
-            <div className="part" />
+            <div className="part">
+              <Part key={part.name} partName={part.name} features={part.features} />
+            </div>
           </>
         );
       })
@@ -50,13 +57,7 @@ const App = () => {
     );
 
   const content = data.isFetching ? <h1>Loading...</h1> : <>{renderListOfParts}</>;
-
-  return (
-    <>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
-      <div className="App">{content}</div>
-    </>
-  );
+  return <div className="App">{content}</div>;
 };
 
 export default App;
